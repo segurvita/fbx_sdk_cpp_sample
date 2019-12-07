@@ -1,0 +1,10 @@
+version: '3'
+services:
+  fbx-sdk-cpp:
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
+    volumes:
+      - ./src:/src
+    working_dir: /src
+    command: /src/build.sh
