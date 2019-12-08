@@ -10,7 +10,7 @@ g++ -std=c++11 \
     -I/fbx-sdk/install/include \
     /src/main.cpp \
     /fbx-sdk/install/lib/gcc/x64/release/libfbxsdk.a \
-    -ldl -lltdl -llzma -lpthread -lxml2 -lz \
+    -ldl -lltdl -llzma -lpthread -lxml2 -lz
 
 echo
 echo Execute sample

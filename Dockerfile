@@ -1,6 +1,6 @@
 FROM gcc:4.9.4
 
-WORKDIR /fbx-sdk/
+WORKDIR /fbx-sdk
 
 # Install FBX SDK
 RUN curl -L \
