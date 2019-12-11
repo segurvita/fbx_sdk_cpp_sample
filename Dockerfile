@@ -1,4 +1,4 @@
-FROM gcc:4.9.4
+FROM gcc:9.2
 
 WORKDIR /fbx-sdk
 
